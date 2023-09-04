@@ -466,14 +466,8 @@ margin-left: 2rem;
     
     
   }
-  #btn-respon{
-    display: flex;
-    align-items: center;
-    
-    flex-direction:column;
-    justify-content: center;
-  }
-
+  
+ 
   #card-edu{
     width: 100%;
     margin-left: 10px;
