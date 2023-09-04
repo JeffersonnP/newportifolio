@@ -436,13 +436,12 @@ margin-left: 2rem;
  @media(max-width:820px){
   .respons{
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
    
   }
   #card-you{
     width: 100%;
-    margin-left: 2rem;
+    margin-left: 10px;
     padding-top: 5rem;
 
 
@@ -456,7 +455,7 @@ margin-left: 2rem;
  
   #card-exp{
     width: 100%;
-    margin-left: 2rem;
+    margin-left: 10px;
 
     
     flex-direction: row;
@@ -470,10 +469,10 @@ margin-left: 2rem;
  
   #card-edu{
     width: 100%;
-    margin-left: 2rem;
+    margin-left: 10px;
 
     
-    flex-direction: row;
+  
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -483,7 +482,7 @@ margin-left: 2rem;
   #card-hab{
     width: 100%;
     margin-bottom: 10px;
-    margin-left: 2rem;
+    margin-left: 10px;
  
   }
   .spinner{
