@@ -1,0 +1,486 @@
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.toobar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;   
+    background-color: rgb(12, 12, 12);
+    color: white;
+    box-shadow: 3px 3px 3px rgb(247, 68, 68);
+    position: relative;
+    
+}
+.toobar:hover{
+  box-shadow: 5px 5px 5px rgb(247, 68, 68);
+
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 2rem;
+    border-color: white;
+
+
+    
+}
+
+a{
+    color: white;
+}
+
+.title{
+width: 10rem;
+height: 2rem;
+}
+
+body{
+    background-color: rgb(90, 90, 90);
+}
+
+
+.info-call{
+  margin-left: 10px;
+}
+
+.info-port{
+margin-left: 2rem;
+}
+
+
+.class-sbm{
+    background-color: rgb(30, 9, 49);
+    font-size: 23px;
+    color: white;
+    width: 200px;
+    border-radius: 5rem;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1rem;
+    padding: 10px;
+    margin-left: 8rem;
+    opacity:0.9;
+}
+
+.class-sbm:hover{
+    background-color: rgb(78, 45, 109);
+    opacity:1;
+    border: 1px solid;
+    box-shadow: 3px 3px 5px rgb(240, 237, 237);
+    border-color: white;
+    -ms-transform: scale(1);
+    transform: scale(1.0);
+}
+
+
+
+/* caixa Sobre mim */
+#card-you{
+    width: 20%;
+    height: 30rem;
+    margin-left: 55px;
+ 
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+    padding: 2rem 2rem 2rem;
+    display: none;
+    
+}
+
+
+
+
+/* Caixa experiencia */
+#card-exp{
+    width: 20%;
+    height: 30rem;
+    margin-left: 24rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);  
+    box-shadow: 10px 5px 5px black;
+    padding: 2rem 2rem 2rem;
+    display: none;
+   
+}
+
+/* Caixa educação */
+#card-edu{
+    width: 20%;
+    height: 30rem;
+    margin-left: 45rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);  
+    box-shadow: 10px 5px 5px black;
+    padding: 2rem 2rem 2rem;
+    display: none;
+   
+
+}
+
+
+  /* scroll, metodo ultilizado ao clicar no botão localizar o scroll até o local */
+  scroll-container {
+    display: block;  
+    scroll-behavior: smooth;
+    
+   
+  }
+  scroll-page {
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  #card-hab{
+    width: 20%;
+    height: 30rem;
+
+    margin-left: 66rem;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid;
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255);  
+    box-shadow: 10px 5px 5px black;
+    padding: 2rem 2rem 2rem;
+    display: none;
+   
+
+  }
+
+  /* Quadrado */
+
+  .spinner {
+    width: 80px;
+    height: 80px;
+
+    margin-left: 50%;
+    --clr: rgb(250, 76, 76);
+    --clr-alpha: rgb(127, 207, 255, .1);
+    animation: spinner 2s infinite linear;
+    transform-style: preserve-3d;
+  }
+  
+  .spinner > div {
+    background-color: var(--clr-alpha);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border: 5px solid var(--clr);
+  }
+  
+
+  /* Quadrado */
+  .spinner div:nth-of-type(1) {
+    transform: translateZ(-40px) rotateY(180deg);
+  }
+  
+  .spinner div:nth-of-type(2) {
+    transform: rotateY(-270deg) translateX(50%);
+    transform-origin: top right;
+  }
+  
+  .spinner div:nth-of-type(3) {
+    transform: rotateY(270deg) translateX(-50%);
+    transform-origin: center left;
+  }
+  
+  .spinner div:nth-of-type(4) {
+    transform: rotateX(90deg) translateY(-50%);
+    transform-origin: top center;
+  }
+  
+  .spinner div:nth-of-type(5) {
+    transform: rotateX(-90deg) translateY(50%);
+    transform-origin: bottom center;
+  }
+  
+  .spinner div:nth-of-type(6) {
+    transform: translateZ(40px);
+  }
+  
+  /* Controle spiner */
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg) rotateX(0deg) rotateY(0deg);
+    }
+  
+    50% {
+      transform: rotate(180deg) rotateX(180deg) rotateY(180deg);
+    }
+  
+    100% {
+      transform: rotate(360deg) rotateX(360deg) rotateY(360deg);
+    }
+  }
+
+
+
+  /* estilização do botão  */
+  .primary-button {
+    font-family: 'Ropa Sans', sans-serif;
+       /* font-family: 'Valorant', sans-serif; */
+    color: white;
+    cursor: pointer;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 200px;
+    height: 60px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    border: 1px solid #0E1822;
+    padding: 0.8rem 2.1rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+    background-color: #0E1822;
+    background-size: 200%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    transition-property: background-position, border, color;
+    position: relative;
+    z-index: 1;
+   }
+   
+   .primary-button:hover {
+    border: 1px solid #FF4655;
+    color: white;
+    background-position: 40%;
+   }
+   
+   .primary-button:before {
+    content: "";
+    position: absolute;
+    background-color: #0E1822;
+    width: 0.2rem;
+    height: 0.2rem;
+    top: -1px;
+    left: -1px;
+    transition: background-color 0.15s ease-in-out;
+   }
+   
+   .primary-button:hover:before {
+    background-color: white;
+   }
+   
+   .primary-button:hover:after {
+    background-color: white;
+   }
+   
+   .primary-button:after {
+    content: "";
+    position: absolute;
+    background-color: #FF4655;
+    width: 0.3rem;
+    height: 0.3rem;
+    bottom: -1px;
+    right: -1px;
+    transition: background-color 0.15s ease-in-out;
+   }
+   
+   .button-borders {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+   }
+   
+   .button-borders:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5em);
+    height: 50%;
+    left: -0.3em;
+    top: -0.3em;
+    border: 1px solid #0E1822;
+    border-bottom: 0px;
+       /* opacity: 0.3; */
+   }
+   
+   .button-borders:after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5em);
+    height: 50%;
+    left: -0.3em;
+    bottom: -0.3em;
+    border: 1px solid #0E1822;
+    border-top: 0px;
+       /* opacity: 0.3; */
+    z-index: 0;
+   }
+   
+   .shape {
+    fill: #0E1822;
+   }
+   
+
+
+
+   .container {
+    position: relative;
+    font-family: sans-serif;
+  }
+  
+  .container::before, .container::after {
+    content: "";
+    background-color: #fab5704c;
+    position: absolute;
+  }
+  
+  .container::before {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    top: 30%;
+    right: 7%;
+  }
+  
+  .container::after {
+    content: "";
+    position: absolute;
+    height: 3rem;
+    top: 8%;
+    right: 5%;
+    border: 1px solid;
+  }
+  
+  .container .box {
+    width: 11.875em;
+    height: 15.875em;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.074);
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: .7rem;
+    transition: all ease .3s;
+  }
+  
+  .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container .box .title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1em
+  }
+  
+  .container .box div strong {
+    display: block;
+    margin-bottom: .5rem;
+  }
+  
+  .container .box div p {
+    margin: 0;
+    font-size: .9em;
+    font-weight: 300;
+    letter-spacing: .1em;
+  }
+  
+  .container .box div span {
+    font-size: .7rem;
+    font-weight: 300;
+  }
+  
+  .container .box div span:nth-child(3) {
+    font-weight: 500;
+    margin-right: .2rem;
+  }
+  
+  .container .box:hover {
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+
+
+
+ .repons{
+  display: block;
+  
+ }
+
+
+ @media(max-width:820px){
+  .respons{
+    flex-direction: column;
+    align-items: center;
+    
+   
+  }
+  #card-you{
+    width: 100%;
+    margin-left: 2rem;
+    padding-top: 5rem;
+
+
+   
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+ 
+  #card-exp{
+    width: 100%;
+    margin-left: 2rem;
+
+    
+    
+  }
+ 
+  #card-edu{
+    width: 100%;
+ 
+    margin-left: 2rem;
+  
+  }
+
+  #card-hab{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 2rem;
+ 
+  }
+  .spinner{
+    display: none;
+  }
+  .toobar{
+    width: 130%;
+  }
+  
+  
+ }
