@@ -459,13 +459,24 @@ margin-left: 2rem;
     margin-left: 2rem;
 
     
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
     
   }
  
   #card-edu{
     width: 100%;
- 
     margin-left: 2rem;
+
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   
   }
 
